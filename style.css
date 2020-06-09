@@ -1,0 +1,85 @@
+
+body{
+    background-image:url(https://images.hdqwalls.com/wallpapers/bthumb/falcon-heavy-space-x-bs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size:30px;
+    font-weight:bolder;
+    padding-left:20px;
+}
+span {
+    font-size:12px;
+    font-weight: bold;
+}
+a {
+text-decoration: none;
+color: white;
+
+}
+a:hover{
+    color:green;
+    text-decoration: underline;
+}
+.small-Header{
+    height:15vh;
+    background-color: gray;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-sizing: border-box;
+    padding: 10px 35px;
+    
+}
+.hamburger div {
+    display:block;
+    width:15px;
+    height:2px;
+    background-color:black;
+    margin:5px 0px;
+
+
+
+}
+.small-Header nav {
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    margin-right:20px;
+    padding-right:40px; 
+
+    
+}
+.main-content h2{
+    color:white;
+    width:100%;
+    position: absolute;
+    top:65%;
+    margin-left:20%;
+}
+.main-content h3{
+    width: 100%;
+    position: absolute;
+    top:70%;
+    color:white;
+    font-size:40px;
+    margin-left:20%;
+
+}
+.main-content button{
+    border:2px solid black;
+    padding:10px;
+    text-align: center;
+    font-size:15px;
+    display:flex;
+    position: absolute;
+    top:80%;
+    margin-left:20%;
+    margin-top: 15px;
+}
+.main-content button:hover {
+    transition:0.9s;
+    opacity:0.5s;
+    background-color:grey;
+}
